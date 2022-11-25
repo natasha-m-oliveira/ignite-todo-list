@@ -2,7 +2,7 @@ import classNames from "classnames";
 
 interface CounterProps {
   label: string;
-  count: number;
+  count: number | string;
   type?: "primary" | "secondary";
 }
 
